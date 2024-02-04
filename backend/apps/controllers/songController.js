@@ -13,7 +13,7 @@ exports.createSong = async (req, res) => {
     console.error(error);
     res.status(500).json({ error: 'Internal Server Error' });
   }
-};
+}; 
 
 // Get a list of all songs
 exports.getAllSongs = async (req, res) => {
