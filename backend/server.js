@@ -1,5 +1,5 @@
-//require("dotenv").config();
-const process = require("./config/config.js");
+require("dotenv").config();
+//const process = require("./config/config.js");
 const app = require("./app/app.js");
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
