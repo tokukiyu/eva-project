@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
-const process = require("./config.js");
-const dbUrl = process.env.dbUrl;
+// const process = require("./config.js");
+const dbUrl = process.env.dbURL;
 mongoose
   .connect(dbUrl)
   .then(() => {
